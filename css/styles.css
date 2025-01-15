@@ -23,7 +23,6 @@
     padding-left: 40px;
 }
 a.nav-link {
-    margin-left: -10px;
     text-align: center;
     color: black;  
     width: 100vw;
@@ -31,4 +30,29 @@ a.nav-link {
 }
 hr {
     margin: 0px;
+}
+.page-heading{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#body-text {
+    background-color: rgb(151 151 151);
+    width: 95%;
+    margin:auto;
+}
+
+
+/* for small device */
+@media (max-width: 567px) {
+    .navbar-brand {
+        padding-left: 15px;
+    }
+    .navbar-toggler {
+        margin-right: 5px;
+    }
+    #body-text { 
+
+        width: 388px;
+        margin: auto;
+    }
 }
